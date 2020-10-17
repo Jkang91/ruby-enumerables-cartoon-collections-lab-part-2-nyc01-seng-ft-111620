@@ -2,7 +2,6 @@ def square_array(array)
   count = 0 
   while count < array.length 
     array.map {|num| num**2}
-  end 
 end
 
 def summon_captain_planet(planeteer_calls)
